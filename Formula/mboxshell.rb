@@ -6,23 +6,23 @@ class Mboxshell < Formula
 
   on_macos do
     on_arm do
-      url "https://github.com/dcarrero/mboxshell/releases/download/v1.2.2/mboxshell-macos-aarch64"
-      sha256 "1f2ec709957a4be392a41db17812f4a337961f68c67982b61facf7e0f4bea1fc"
+      url "https://github.com/dcarrero/mboxshell/releases/download/v1.3.0/mboxshell-macos-aarch64"
+      sha256 "1246c046718553d86db72f1da739c664860ca590a16c8f004500d4d90a286c85"
     end
     on_intel do
-      url "https://github.com/dcarrero/mboxshell/releases/download/v1.2.2/mboxshell-macos-x86_64"
-      sha256 "94b6a9114042c2489c2f360625e70bd7c3d26c6cde67b45ec2439bdef4a20620"
+      url "https://github.com/dcarrero/mboxshell/releases/download/v1.3.0/mboxshell-macos-x86_64"
+      sha256 "817a592e976525131dd0be8493e3c0188984f60a43824f4ea742dac706d6ccb7"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/dcarrero/mboxshell/releases/download/v1.2.2/mboxshell-linux-aarch64"
-      sha256 "94ec271882238c8fbc5f34847ecc5aa8c272084d16489730e7d9378a7ce23aac"
+      url "https://github.com/dcarrero/mboxshell/releases/download/v1.3.0/mboxshell-linux-aarch64"
+      sha256 "c2640ad6e0331564c05d9135f1de18aca04e10139f02ef8683f14fbf6df04ea2"
     end
     on_intel do
-      url "https://github.com/dcarrero/mboxshell/releases/download/v1.2.2/mboxshell-linux-x86_64"
-      sha256 "e57c0b2b0083a8e2b87eed756c323fe3bbe19f601615e2930c4036f3fa0370f7"
+      url "https://github.com/dcarrero/mboxshell/releases/download/v1.3.0/mboxshell-linux-x86_64"
+      sha256 "0d1cbec386936174591f8cdb4e899a7795f25f215b48e5ca1c5975d090e2ca12"
     end
   end
 
