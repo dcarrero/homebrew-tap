@@ -1,12 +1,11 @@
 # dcarrero/homebrew-tap
 
-Homebrew formulae for [CrawlForge](https://crawlforge.org/), a technical SEO auditor for the
-command line.
+Homebrew formulae for command-line tools by David Carrero.
 
-```sh
-brew install dcarrero/tap/crawlforge
-```
+| Tool | Install | What it is |
+|------|---------|------------|
+| [CrawlForge](https://crawlforge.org/) | `brew install dcarrero/tap/crawlforge` | Technical SEO auditor for the command line |
+| [mboxshell](https://github.com/dcarrero/mboxshell) | `brew install dcarrero/tap/mboxshell` | Fast terminal viewer for MBOX files of any size |
 
-The formulae in `Formula/` are written by the release workflow of
-[dcarrero/crawlforge](https://github.com/dcarrero/crawlforge) on every tagged version. Please
-report problems there, not here.
+Each formula in `Formula/` is written by the release workflow of its project on every tagged
+version. Please report problems in the project's repository, not here.
